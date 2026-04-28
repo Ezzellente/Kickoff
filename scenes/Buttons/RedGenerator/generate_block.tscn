@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://bwxx1hslf105b"]
+
+[node name="GenerateBlock" type="Node2D"]
