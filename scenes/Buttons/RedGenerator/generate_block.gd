@@ -14,3 +14,6 @@ var block_scene = preload("res://scenes/Blocks/Red/BlockRed.tscn")
 
 func _on_red_generator_button_down() -> void:
 	pass # Replace with function body.
+
+func delete():
+	queue_free()
