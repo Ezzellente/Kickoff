@@ -69,4 +69,6 @@ text = "Cantidad de Instancias:
 [connection signal="button_down" from="RedGenerator" to="RedGenerator/GenerateBlock" method="_on_red_generator_button_down"]
 [connection signal="button_down" from="VioletGenerator" to="VioletGenerator" method="_on_button_down"]
 [connection signal="button_down" from="VioletGenerator" to="VioletGenerator/GenerateBlock" method="_on_violet_generator_button_down"]
+[connection signal="button_down" from="Reset" to="VioletGenerator" method="_on_reset_button_down"]
 [connection signal="button_down" from="Reset" to="Reset" method="_on_button_down"]
+[connection signal="button_down" from="Reset" to="RedGenerator/GenerateBlock" method="_on_reset_button_down"]

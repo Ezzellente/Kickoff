@@ -17,3 +17,7 @@ func _on_red_generator_button_down() -> void:
 
 func delete():
 	queue_free()
+
+
+func _on_reset_button_down() -> void:
+	pass # Replace with function body.
